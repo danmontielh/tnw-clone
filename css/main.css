@@ -1,7 +1,11 @@
 html p, h1, h2, h3 , h4, h5, h6 {
     margin: 0;
   }
-  
+
+  .align-end {
+    display: grid;
+    align-items: end;
+}
 
 .main {
     max-width: 1250px;
@@ -159,3 +163,58 @@ margin-bottom: 25px;
     color: gray;
     font-size: 10px;
 }
+
+
+/*LAS CATEGORIES*/
+
+.last-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 55px;
+}
+
+.popular-img {
+    background-color: #fff;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+    width: 368px;
+    height: 276px;
+    color: white;
+    position: relative;
+
+}
+
+.popular-img:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgb(13,12,12);
+    background: linear-gradient(90deg, rgba(13,12,12,1) 0%, rgba(92,87,87,1) 100%, rgba(0,212,255,1) 100%);
+    opacity: .3; 
+    z-index: 1 ;  
+}
+
+.post-text {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+}
+
+.post-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.post-text h5 {
+    text-transform: uppercase;
+}
+
+.post-text span {
+    font-size: 12px;
+    color:hsla(0,0%,100%,.6)
+}
+
