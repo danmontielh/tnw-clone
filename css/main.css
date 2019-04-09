@@ -1,223 +1,215 @@
-html p, h1, h2, h3 , h4, h5, h6 {
-    margin: 0;
-  }
+html p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
-  .align-end {
-    display: grid;
-    align-items: end;
+.align-end {
+  display: grid;
+  align-items: end;
 }
 
 .main {
-    max-width: 1250px;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  max-width: 1250px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main h2 {
-color: #f42;
-font-size: 28px;
-font-weight: 700;
-line-height: 1.1; 
-margin-bottom: 25px;   
+  color: #f42;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 25px;
 }
 
 .latest-news {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(297.5px ,1fr));
-    grid-gap: 20px;
-    margin-bottom: 50px;
-    opacity: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(297.5px, 1fr));
+  grid-gap: 20px;
+  margin-bottom: 50px;
+  opacity: 1;
 }
 
 .latest-article {
-    width: 100%;
+  width: 100%;
 }
 
 .latest-article img.thumbnail {
-    width: 100%;
-    height: 135px;
+  width: 100%;
+  height: 135px;
 }
 
 .latest-article h4 {
-    font-size: 17px;
-    line-height: 20px;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .latest-article span {
-    font-size: 14px;
-    color: gray;
+  font-size: 14px;
+  color: gray;
 }
-
-
-
 
 /* MEDIA QUERIES FOR LATEST NEWS*/
 
-@media only screen and (max-width: 650px){
-    .latest-news {
-        margin-left: 10px;
-    }
-    .latest-news .latest-article {
-        display: grid;
-        grid-template-columns: 75px auto;
-    } 
-    .latest-article img.thumbnail {
-        height: 75px;
-    }
+@media only screen and (max-width: 650px) {
+  .latest-news {
+    margin-left: 10px;
+  }
+  .latest-news .latest-article {
+    display: grid;
+    grid-template-columns: 75px auto;
+  }
+  .latest-article img.thumbnail {
+    height: 75px;
+  }
 
-    .latest-article .post-meta {
-        margin-left: 10px;
-        
-    }
-
-
-
+  .latest-article .post-meta {
+    margin-left: 10px;
+  }
 }
-
-
 
 /*STORY INDEX */
 
-
 .latest-indexco {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    background-color: #fffaf8;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  background-color: #fffaf8;
+  grid-gap: 20px;
 }
 
 .story-index h4 {
-    background-color: #f42; 
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    padding: 10.66px 16px
+  background-color: #f42;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 10.66px 16px;
 }
 
 .story-index a {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
 .img-position {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    z-index: 10;
-    margin: 10.66px
-
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 10;
+  margin: 10.66px;
 }
 
 .story-amount {
-    padding: 10.66px 16px;
-    text-align: center;
-    background-color: rgba(255,68,34,.08);
+  padding: 10.66px 16px;
+  text-align: center;
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 .story-amount h5 {
-    font-size: 12px;
-    color: gray;
-    margin-left: 18px;
+  font-size: 12px;
+  color: gray;
+  margin-left: 18px;
 }
-
 
 .story-amount h5.amount {
-    font-size: 14px;
-    color: #000;
-    margin-left: 18px;
+  font-size: 14px;
+  color: #000;
+  margin-left: 18px;
 }
 
-
 .story-type {
-    margin-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 5px;
+  margin-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 .story-type a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
-
 
 .story-type i {
-    margin-right: 15px;
-    margin-top: 10px;
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
-
 .story-description {
-    border-top:1px solid rgba(255,68,34,.25);
-    margin-top: 25px;
-    margin-left: 15px;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  margin-top: 25px;
+  margin-left: 15px;
 }
 
 .story-description p {
-    padding-top: 15px;
-    color: #555;
-    font-size: 13px;
+  padding-top: 15px;
+  color: #555;
+  font-size: 13px;
 }
 
 .story-description span {
-    color: gray;
-    font-size: 10px;
+  color: gray;
+  font-size: 10px;
 }
-
 
 /*LAS CATEGORIES*/
 
 .last-categories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(368px, 1fr));
-    grid-gap: 15px;
-    margin-top: 55px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(368px, 1fr));
+  grid-gap: 15px;
+  margin-top: 55px;
 }
 
 .popular-img {
-    background-color: #fff;
-    background-size: cover;
-    background-position: 50%;
-    z-index: 1;
-    width: 100%;
-    height: 276px;
-    color: white;
-    position: relative;
-
+  background-color: #fff;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
+  width: 100%;
+  height: 276px;
+  color: white;
+  position: relative;
 }
 
 .popular-img:before {
-    content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgb(13,12,12);
-    background: linear-gradient(90deg, rgba(13,12,12,1) 0%, rgba(92,87,87,1) 100%, rgba(0,212,255,1) 100%);
-    opacity: .3; 
-    z-index: 1 ;  
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(13, 12, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(13, 12, 12, 1) 0%,
+    rgba(92, 87, 87, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  opacity: 0.3;
+  z-index: 1;
 }
 
 .post-text {
-    padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    z-index: 3;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 3;
 }
 
 .post-text h3 {
-    font-size: 22px;
-    font-weight: 700;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .post-text h5 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .post-text span {
-    font-size: 12px;
-    color:hsla(0,0%,100%,.6)
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.6);
 }
-
