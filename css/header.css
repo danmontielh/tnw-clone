@@ -27,6 +27,7 @@ a{
 .header{
   font-family: arial;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .tnw-btn{
@@ -327,6 +328,7 @@ a{
   width: auto;
   background-color: #131313;
   font-family: arial;
+  margin-top: 50px;
 }
 
 .ft-wrapper{
