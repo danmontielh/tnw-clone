@@ -57,7 +57,7 @@ h6 {
 
 /* MEDIA QUERIES FOR LATEST NEWS*/
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 580px) {
   .latest-news {
     margin-left: 10px;
   }

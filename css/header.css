@@ -483,6 +483,9 @@ a {
   .wrp-bot {
     flex: none;
   }
+  .wrp-right{
+    height: auto;
+  }
   .wrp-left,
   .wrp-top,
   .wrp-bot {
