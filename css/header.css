@@ -65,6 +65,7 @@ a {
 .dark-bar {
   background-color: #131313;
   height: 30px;
+  font-family: arial;
 }
 
 .pop {
@@ -122,6 +123,7 @@ a {
   height: 80px;
   background-color: white;
   z-index: 5;
+  font-family: arial;
 }
 
 /* NAVBAR LEFT ITEMS */
