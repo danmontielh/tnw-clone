@@ -130,17 +130,22 @@ a {
   height: 50px;
 }
 
-.nav-list li {
-  display: inline-block;
+.nav-list a {
   color: gray;
   padding: 0 10px;
   line-height: 50px;
   font-size: 14px;
-  list-style-type: none;
 }
 
-.nav-list li:hover {
+.nav-list a:hover {
   color: black;
+}
+
+.nav-list li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 
 
