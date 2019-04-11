@@ -130,21 +130,19 @@ a {
   height: 50px;
 }
 
-.nav-list a {
+.nav-list li {
   display: inline-block;
   color: gray;
   padding: 0 10px;
   line-height: 50px;
   font-size: 14px;
+  list-style-type: none;
 }
 
-.nav-list a:hover {
+.nav-list li:hover {
   color: black;
 }
 
-.nav-list li {
-  list-style-type: none;
-}
 
 /* NAVBAR RIGHT ITEMS */
 
