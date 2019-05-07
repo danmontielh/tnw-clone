@@ -6,6 +6,6 @@ Author: <a href="https://github.com/madcido">Fabio Carmo</a> / <a href="https://
 
 Preview:
 
-https://raw.githack.com/madcido/tnw-clone/master/index.html
+https://raw.githack.com/danmontielh/tnw-clone/master/index.html
 
 https://danmontielh.github.io/tnw-clone/
